@@ -6,7 +6,7 @@ setup(
     description='DBSCAN with Periodic Boundary Conditions', 
     author='X. de Wit', 
     author_email='x.m.d.wit@tue.nl', 
-    url='https://github.com/TODO',  
+    url='https://github.com/XanderDW/PBC-DBSCAN',  
     packages=find_packages(),  
     install_requires=[
         'numpy',
