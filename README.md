@@ -23,6 +23,10 @@ Alternatively:
 
 To execute the demo jupyter notebook you will additionally need `numpy`, `matplotlib`, `jupyter`
 
+## Examples
+
+Working examples are provided in the notebook in this repo in the directory `demo-notebooks`.
+
 ## Documentation
 
 ```python
