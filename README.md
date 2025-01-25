@@ -25,7 +25,7 @@ To execute the demo jupyter notebook you will additionally need `numpy`, `matplo
 
 ## Examples
 
-Working examples are provided in the notebook in this repo in the directory `demo-notebooks`.
+Working examples are provided in the notebook in this repo in the directory `demo-notebooks/`.
 
 ## Documentation
 
