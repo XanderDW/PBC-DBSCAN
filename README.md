@@ -145,7 +145,7 @@ class DBSCAN_PBC(DBSCAN):
 To reference this work, please cite:\
 de Wit, X.M. & Gabbana, A. (2025). DBSCAN in domains with periodic boundary conditions. ([arxiv.org/abs/2501.16894](https://arxiv.org/abs/2501.16894)).
 
-Feel free to use the following bibitem
+Feel free to use the following bibitem:
 ```
 @misc{dewit2025,
       title={DBSCAN in domains with periodic boundary conditions}, 
