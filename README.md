@@ -2,7 +2,10 @@
 
 This is a custom implementation of the `DBSCAN` algorithm that supports periodic boundary conditions (PBC).  
 It extends the `DBSCAN` class from the `sklearn.cluster` module and adds functionality for handling data in periodic domains.
-More information can also be obtained from the corresponding paper: de Wit, X.M. & Gabbana, A. (2025). DBSCAN in domains with periodic boundary conditions. ([arxiv.org/abs/2501.16894](https://arxiv.org/abs/2501.16894)).
+
+
+More information can also be obtained from the corresponding paper:\
+de Wit, X.M. & Gabbana, A. (2025). DBSCAN in domains with periodic boundary conditions. ([arxiv.org/abs/2501.16894](https://arxiv.org/abs/2501.16894)).
 
 ![Example Image](demo-notebooks/example-2D.png)
 
@@ -139,7 +142,10 @@ class DBSCAN_PBC(DBSCAN):
 
 ## Reference
 
-To reference this work, please cite: de Wit, X.M. & Gabbana, A. (2025). DBSCAN in domains with periodic boundary conditions. ([arxiv.org/abs/2501.16894](https://arxiv.org/abs/2501.16894)). Feel free to use the following bibitem
+To reference this work, please cite:\
+de Wit, X.M. & Gabbana, A. (2025). DBSCAN in domains with periodic boundary conditions. ([arxiv.org/abs/2501.16894](https://arxiv.org/abs/2501.16894)).
+
+Feel free to use the following bibitem
 ```
 @misc{dewit2025,
       title={DBSCAN in domains with periodic boundary conditions}, 
