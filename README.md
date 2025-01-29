@@ -127,15 +127,14 @@ class DBSCAN_PBC(DBSCAN):
         >>> from sklearn.datasets import make_blobs
         >>> from sklearn.preprocessing import StandardScaler
         >>> import numpy as np
-        >>> # Generate synthetic data
+        >>> ### Generate synthetic data
         >>> centers = [[0, 0], [1, 0], [2, 0]]
         >>> X, _ = make_blobs(n_samples=80, centers=centers, cluster_std=0.1, random_state=0)
         >>> X = StandardScaler().fit_transform(X)  # Standardize the data
         >>> L = 2.0  # Box size
         >>> X = np.mod(X, L)  # Apply periodic boundary conditions
-        >>> X = X[X[:, 1] > 0, 0]  # Keep points with y > 0, only x-coordinates
-        >>> # Apply DBSCAN_PBC
-        >>> db = DBSCAN_PBC(eps=0.1, min_samples=5).fit(X[:, np.newaxis], pbc_lower=0, pbc_upper=L)
+        >>> ### Apply DBSCAN_PBC
+        >>> db = DBSCAN_PBC(eps=0.1, min_samples=5).fit(X, pbc_lower=0, pbc_upper=L)
         >>> print(db.labels_)
 
 ```
