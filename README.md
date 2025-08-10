@@ -5,7 +5,7 @@ It extends the `DBSCAN` class from the `sklearn.cluster` module and adds functio
 
 
 More information can also be obtained from the corresponding paper:\
-de Wit, X.M. & Gabbana, A. (2025). DBSCAN in domains with periodic boundary conditions. ([arXiv:2501.16894](https://arxiv.org/abs/2501.16894)).
+de Wit, X. M., &amp; Gabbana, A. (2025). DBSCAN in Domains with Periodic Boundary Conditions. <i>Journal of Open Research Software</i>, <i>13</i>(1), 12. [doi.org/10.5334/jors.555](https://doi.org/10.5334/jors.555).
 
 ![Example Image](demo-notebooks/example-2D.png)
 
@@ -142,17 +142,17 @@ class DBSCAN_PBC(DBSCAN):
 ## Reference
 
 To reference this work, please cite:\
-de Wit, X.M. & Gabbana, A. (2025). DBSCAN in domains with periodic boundary conditions. ([arXiv:2501.16894](https://arxiv.org/abs/2501.16894)).
+de Wit, X. M., &amp; Gabbana, A. (2025). DBSCAN in Domains with Periodic Boundary Conditions. <i>Journal of Open Research Software</i>, <i>13</i>(1), 12. [doi.org/10.5334/jors.555](https://doi.org/10.5334/jors.555).
 
 Feel free to use the following bibitem:
 ```
-@misc{dewit2025,
-      title={DBSCAN in domains with periodic boundary conditions}, 
-      author={Xander M. de Wit and Alessandro Gabbana},
-      year={2025},
-      eprint={2501.16894},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2501.16894}, 
+@article{dewit2025,
+ author = {de Wit, Xander M. and Gabbana, Alessandro},
+ doi = {10.5334/jors.555},
+ journal = {Journal of Open Research Software},
+ month = {Aug},
+ title = {{DBSCAN} in Domains with Periodic Boundary Conditions},
+ year = {2025}
 }
+
 ```
