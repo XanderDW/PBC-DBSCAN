@@ -146,13 +146,15 @@ de Wit, X. M., &amp; Gabbana, A. (2025). DBSCAN in Domains with Periodic Boundar
 
 Feel free to use the following bibitem:
 ```
-@article{dewit2025,
+@article{dewit2025pbcdbscan,
  author = {de Wit, Xander M. and Gabbana, Alessandro},
  doi = {10.5334/jors.555},
  journal = {Journal of Open Research Software},
  month = {Aug},
  title = {{DBSCAN} in Domains with Periodic Boundary Conditions},
- year = {2025}
+ year = {2025},
+ volume = {13},
+ number = {1},
+ pages = {12}
 }
-
 ```
